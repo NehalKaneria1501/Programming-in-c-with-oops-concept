@@ -1,0 +1,84 @@
+#include<iostream>
+using namespace std;
+class car 
+{
+public:
+    int car_id;
+    string car_company_name;
+    string car_color;
+    string car_model;
+    int car_release_year;
+};
+int main()
+ {
+    car car1,car2,car3,car4;
+    cout<<"Enter information for Car 1:\n"<<endl;
+    cout<<"Car ID:";
+    cin >>car1.car_id;
+    cout<<"Company Name:";
+    cin >>car1.car_company_name;
+    cout<<"Color:";
+    cin >>car1.car_color;
+    cout<<"Model:";
+    cin >>car1.car_model;
+    cout<<"Release Year:";
+    cin >>car1.car_release_year;
+    cout<<"Enter information for Car 2:\n"<<endl;
+    cout<<"Car ID:";
+    cin >>car2.car_id;
+    cout<<"Company Name:";
+    cin >>car2.car_company_name;
+    cout<<"Color:";
+    cin >>car2.car_color;
+    cout<<"Model:";
+    cin >>car2.car_model;
+    cout<<"Release Year:";
+    cin >>car2.car_release_year;
+    cout<<"Enter information for Car 3:\n"<<endl;
+    cout<<"Car ID:";
+    cin >>car3.car_id;
+    cout<<"Company Name:";
+    cin >>car3.car_company_name;
+    cout<<"Color:";
+    cin >>car3.car_color;
+    cout<<"Model:";
+    cin >>car3.car_model;
+    cout<<"Release Year:";
+    cin >>car3.car_release_year;
+    cout<<"Enter information for Car 4:\n"<<endl;
+    cout<<"Car ID:";
+    cin >>car4.car_id;
+    cout<<"Company Name:";
+    cin >>car4.car_company_name;
+    cout<<"Color:";
+    cin >>car4.car_color;
+    cout<<"Model:";
+    cin >>car4.car_model;
+    cout<<"Release Year:";
+    cin>>car4.car_release_year;
+    cout<<"Car 1 Information:\n"<<endl;
+    cout<<"ID:"<<car1.car_id<<endl;
+    cout<<"Company Name:"<<car1.car_company_name<<endl;
+    cout<<"Color:"<<car1.car_color<<endl;
+    cout<<"Model:"<<car1.car_model<<endl;
+    cout<<"Release Year:"<<car1.car_release_year<<endl;
+    cout<<"Car 2 Information:\n"<<endl;
+    cout<<"ID:"<<car2.car_id<<endl;
+    cout<<"Company Name:"<<car2.car_company_name<<endl;
+    cout<<"Color:"<<car2.car_color<<endl;
+    cout<<"Model:"<<car2.car_model<<endl;
+    cout<<"Release Year:"<<car2.car_release_year<<endl;
+    cout<<"Car 3 Information:\n"<<endl;
+    cout<<"ID:"<<car3.car_id<<endl;
+    cout<<"Company Name:"<<car3.car_company_name<<endl;
+    cout<<"Color:"<<car3.car_color<<endl;
+    cout<<"Model:"<<car3.car_model<<endl;
+    cout<<"Release Year:"<<car3.car_release_year<<endl;
+    cout<<"Car 4 Information:\n"<<endl;
+    cout<<"ID:"<<car4.car_id<<endl;
+    cout<<"Company Name:"<<car4.car_company_name<<endl;
+    cout<<"Color:"<<car4.car_color<<endl;
+    cout<<"Model:"<<car4.car_model<<endl;
+    cout<<"Release Year:"<<car4.car_release_year<<endl;
+    return 0;
+}
